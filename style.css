@@ -225,9 +225,53 @@ a{
                 color: #1687a7;
                 font-weight: 600;
             }
+.footer {
+    margin-top: 60px;
+    background-color: #276678;
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
 
-
-
+    padding-bottom: 100px;
+}
+    .contact {
+        justify-content: center;
+        display: flex;
+        padding-top: 60px;
+        flex-direction: row;
+        margin-bottom: 30px;
+    }
+    .contactText {
+        justify-content: center;
+        align-items: center;
+    }
+    .contactText h2 {
+        font-weight: 400;
+        font-size: 2.5rem;
+        padding-top: 10px;
+        width: 50%;
+        color: #f6f5f5;
+        left: 30px;
+        margin-bottom: 10px;
+    }
+    .contactText p {
+        font-weight: 300;
+        line-height: 140%;
+        font-size: 2rem;
+        width: 50%;
+        color: #8dabc2ea;
+        margin-bottom: 20px;
+    }
+    .contactredes {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 10px;
+    }
+    .contact a {
+        padding-bottom: 30px;
+        color: #f6f5f5;
+    }
 @media screen and (max-width: 960px) {
     .headerContent {
         flex-direction: column;
@@ -291,4 +335,9 @@ a{
         display: flex;
         flex-direction: column-reverse;
     }
+    .contact {
+        justify-content: center;
+        flex-direction: column;
+    }
+    
 }
