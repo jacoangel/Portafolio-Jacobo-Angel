@@ -217,8 +217,7 @@ a{
             padding-bottom: 30px;
         }
             .habilidades1 img {
-            max-width: 300px;
-            max-height: 300px;
+                height: 20vh;
             }
             .habilidades1 span {
                 color: #1687a7;
